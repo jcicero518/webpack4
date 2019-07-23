@@ -80,6 +80,9 @@ const config = {
     ],
     extensions: ['.js', '.ts']
   },
+  externals: {
+    'jquery': jQuery
+  },
 
   plugins: [
     new MiniCSSExtractPlugin({
